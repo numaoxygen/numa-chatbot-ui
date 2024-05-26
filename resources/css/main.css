@@ -1,0 +1,57 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+#root, #__next {
+  isolation: isolate;
+}
+html, body {
+  margin: 0;
+  height: 100%;
+}
+body {
+  background-color: #00010F;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+}
+.site-header {
+  background-image: url('/resources/images/bg.webp');
+  height: 600px;
+  color: #C8E6DC;
+  font-size: 1.2rem;
+}
+.btn {
+  font-family: monospace;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 0.5rem 2rem;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #C8E6DC;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 1.3s;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #00010F;
+}
+.btn:active {
+  background-color: #C8E6DC;
+}

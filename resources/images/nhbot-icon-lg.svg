@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#03414C" x="0" y="0" width="256" height="256"></rect>
+        <g id="Group" transform="translate(28.000000, 28.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <circle id="Oval" cx="39.5" cy="130.5" r="39.5"></circle>
+            <circle id="Oval" cx="135" cy="175" r="25"></circle>
+            <circle id="Oval" cx="139.5" cy="60.5" r="60.5"></circle>
+        </g>
+    </g>
+</svg>

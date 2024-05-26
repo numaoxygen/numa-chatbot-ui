@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hyperbaric Oxygen Therapy AI Assistant</title>
+  <link rel="stylesheet" href="/resources/css/main.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/resources/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/resources/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/resources/icons/favicon-16x16.png">
+  <link rel="manifest" href="/resources/icons/site.webmanifest">
+  <link rel="mask-icon" href="/resources/icons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/resources/icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#03414c">
+  <meta name="msapplication-config" content="/resources/icons/browserconfig.xml">
+  <meta name="theme-color" content="#00010F">
+  <meta name="description" content="AI chat assistant specialises in Hyperbaric Oxygen Therapy">
+</head>
+<body>
+  <header class="site-header" style="text-align: center;"">
+    <div style="padding-top: 300px;">
+      <img src="/resources/images/nhbot-logo.svg" alt="N HBOT Logo" width="322" height="53" style="margin: 0 auto;">
+    </div>
+    <div style="padding: 2rem 0; letter-spacing: 1.6px;">
+      Hyperbaric Oxygen Therapy AI Assistant
+    </div>
+    <div>
+      <button class="btn" onclick="onChatStart()">Get started</button>
+    </div>
+  </header>
+  <div id="chat">
+
+  </div>
+  <script type="text/javascript">
+    function onChatStart() {
+      window.voiceflow.chat.load({
+        verify: { projectID: '664cbe7d02447d59f61b76f2' },
+        url: 'https://general-runtime.voiceflow.com',
+        versionID: 'production',
+        render: {
+          mode: 'embedded',
+          target: document.body
+        },
+        autostart: true
+      });
+    }
+    (function(d, t) {
+        var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        v.onload = function() {
+          
+        }
+        v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+    })(document, 'script');
+  </script>
+</body>
+</html>
